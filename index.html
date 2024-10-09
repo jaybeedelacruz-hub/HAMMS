@@ -8,7 +8,13 @@
     <title>HAMMS</title>
   </head>
 
-  <body>
+  <!-- FONT STYLE -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+  <!-- FONT STYLE -->
+
+  <body class="font-['Poppins']">
     <section id="">
       <nav
         id="navbar"
@@ -140,7 +146,7 @@
       <!-- HERO SECTION -->
       <section id="home">
         <div
-          class="flex justify-center md:justify-end items-center bg-[url('/assets/hero_photo.jpg')] bg-cover bg-center h-96 w-full md:h-[600px] px-2 sm:px-3 md:pr-20 my-5 rounded-md md:w-full lg:w-full"
+          class="flex justify-center md:justify-end items-center bg-[url('/assets/hero_photo.jpg')] bg-cover bg-center h-96 w-full md:h-[600px] px-2 sm:px-3 md:pr-20 my-5 rounded-md md:w-full lg:w-full shadow-md md:shadow-lg shadow-slate-400"
         >
           <div class="relative px-2 sm:px-4 py-10 w-full max-w-lg">
             <div
@@ -198,20 +204,33 @@
                 alt="Dental Photo"
                 class="w-full h-52 object-cover rounded-md mb-3"
               />
+              <p class="mb-2">
+                Dental clinics may offer additional specialized services based
+                on their expertise, so it’s best to consult directly with the
+                clinic for a full list of available services.
+              </p>
               <h3 class="text-xl font-medium mb-2">Oral Surgery:</h3>
               <p class="mb-2">
-                Tooth extraction: Removal of damaged or impacted teeth,
+                Tooth Extractions: Removal of damaged or impacted teeth,
                 including wisdom teeth.
               </p>
               <h3 class="text-xl font-medium mb-2">Pediatric Dentistry:</h3>
-              <p class="mb-2">
-                Sealants and Fluoride for Kids: Treatments to protect young
-                teeth from decay.
-              </p>
-              <h3 class="text-xl font-medium mb-2">
-                Sealants and Fluoride for Kids:
-              </h3>
-              <p class="mb-2">Treatments to protect young teeth from decay.</p>
+              <ul class="mb-2 space-y-3">
+                <li>
+                  <strong>-Children’s Exams and Cleanings:</strong> Dental care
+                  specifically tailored for children, with a focus on preventive
+                  care.
+                </li>
+                <li>
+                  <strong>-Sealants and Fluoride Treatments:</strong> Protective
+                  treatments to help prevent tooth decay in children.
+                </li>
+                <li>
+                  <strong>-Habit Counseling:</strong> Guidance on managing
+                  habits such as thumb-sucking that can affect a child's oral
+                  health.
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -328,34 +347,36 @@
                 diseases.
               </p>
               <h3 class="text-xl font-medium mb-2">Available Vaccines:</h3>
-              <ul class="mb-2">
+              <ul class="mb-2 space-y-3">
                 <li>
-                  -Vaccinations: Protects against diseases like measles, polio,
-                  and more.
+                  <strong>-Vaccinations:</strong> Protects against diseases like
+                  measles, polio, and more.
                 </li>
                 <li>
-                  -Adult Vaccinations: Includes flu, hepatitis, tetanus, and
-                  others to keep you healthy.
+                  <strong>-Adult Vaccinations:</strong> Includes flu, hepatitis,
+                  tetanus, and others to keep you healthy.
                 </li>
                 <li>
-                  -Travel Vaccines: Safeguard yourself before international
-                  travel with vaccines like yellow fever and typhoid.
+                  <strong>-Travel Vaccines:</strong> Safeguard yourself before
+                  international travel with vaccines like yellow fever and
+                  typhoid.
                 </li>
                 <li>
-                  -COVID-19 Vaccine: Stay up-to-date with COVID-19 vaccines and
-                  boosters.
+                  <strong>-COVID-19 Vaccine:</strong> Stay up-to-date with
+                  COVID-19 vaccines and boosters.
                 </li>
               </ul>
+
               <h3 class="text-xl font-medium mb-2">How It Works:</h3>
-              <ul class="mb-2">
+              <ul class="mb-2 space-y-3">
                 <li>
-                  -Get Vaccinated: We ensure a quick, safe, and comfortable
-                  experience.
+                  <strong>-Get Vaccinated:</strong> We ensure a quick, safe, and
+                  comfortable experience.
                 </li>
                 <li>
-                  -Post-Vaccination Care: Our team will guide you on what to
-                  expect after vaccination. Vaccinations are safe, effective,
-                  and critical for preventing illnesses.
+                  <strong>-Post-Vaccination Care:</strong> Our team will guide
+                  you on what to expect after vaccination. Vaccinations are
+                  safe, effective, and critical for preventing illnesses.
                 </li>
               </ul>
             </div>
@@ -383,16 +404,17 @@
                 and healthy pregnancy.
               </p>
               <h3 class="text-xl font-medium mb-2">Services We Offer:</h3>
-              <ul class="mb-2">
+              <ul class="mb-2 space-y-3">
                 <li>
-                  -Nutritional Guidance: Personalized advice to maintain a
-                  healthy diet for you and your baby.
+                  <strong>-Nutritional Guidance:</strong> Personalized advice to
+                  maintain a healthy diet for you and your baby.
                 </li>
                 <li>
-                  -Pregnancy Education: Learn about each stage of pregnancy and
-                  what to expect during labor and delivery.
+                  <strong>-Pregnancy Education:</strong> Learn about each stage
+                  of pregnancy and what to expect during labor and delivery.
                 </li>
               </ul>
+
               <h3 class="text-xl font-medium mb-2">
                 Why Prenatal Care is Important:
               </h3>
@@ -691,7 +713,9 @@
           </div>
           <div class="flex mb-2">
             <img src="/assets/facebook.png" alt="" class="h-6 w-6" />
-            <p class="font-medium ml-2">HAMMS</p>
+            <p class="font-medium sm:text-sm lg:text-base ml-2">
+              HAMMS Official Page
+            </p>
           </div>
         </div>
       </div>
